@@ -3,7 +3,7 @@
 
 本项目主要演示了使用 [gulp-rev-all](https://github.com/smysnk/gulp-rev-all) 将项目文件名全部 hash 化以充分利用文件缓存，同时解决缓存不更新的问题。
 
-内置了一个 Node.js 实现的静态资源服务器(via [JacksonTian](https://cnodejs.org/topic/4f16442ccae1f4aa27001071))，用于处理常规文件名与 hash 文件名访问的映射。
+内置了一个 Node.js 实现的静态资源服务器(via [JacksonTian](https://cnodejs.org/topic/4f16442ccae1f4aa27001071))，用于处理常规文件名与 hash 文件名访问的映射 + 缓存优化。
 
 此方案对缓存的利用与更新很有效，但依旧存在浪费更新的问题如下：
 
@@ -21,7 +21,7 @@
 2. 运行 `npm i`
 3. 运行 `gulp`
 4. 运行 `node app`
-5. 访问 [测试页 localhost:9090/HashRev/modules/test/html](localhost:9090/HashRev/modules/test/html)
+5. 访问 [测试页-localhost:9090/HashRev/modules/test/html](localhost:9090/HashRev/modules/test/html)
 6. 根据实际需要调整方案
 
 --
