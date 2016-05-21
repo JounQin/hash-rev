@@ -1,0 +1,14 @@
+.circle {
+  border-radius: 50%;
+}
+
+.middle-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+#container {
+  margin-top: 200px;
+}
