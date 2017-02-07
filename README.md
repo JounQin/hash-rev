@@ -1,4 +1,6 @@
 # hash-rev
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/JounQin/hash-rev.svg)](https://greenkeeper.io/)
 使用 gulp-rev-all 方案实现的文件名 hash 版本号 + 项目实际应用的演示项目
 
 本项目主要演示了使用 [gulp-rev-all](https://github.com/smysnk/gulp-rev-all) 将项目文件名全部 hash 化以充分利用文件缓存，同时解决缓存不更新的问题。
